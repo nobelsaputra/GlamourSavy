@@ -1,0 +1,132 @@
+/* font start */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;600&display=swap');
+
+.krub {
+  font-family: 'Krub', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.krub-semi {
+  font-family: "Krub", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.lexend {
+  font-family: 'Lexend Zetta', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.krona {
+  font-family: 'Krona One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* font end */
+.bg-utama {
+  background-color: #e3e1d9;
+}
+
+/* navbar */
+.nav-link {
+  position: relative;
+  color: black;
+  font-size: 23px;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.7s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 500;
+}
+nav li {
+  border: none;
+  display: inline-block;
+  padding-right: 5px;
+  transition: all linear 0.5s;
+  margin-right: 20px;
+  font-size: 18px;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding-right: 5px;
+}
+ul li {
+  cursor: pointer;
+  position: relative;
+}
+/* navbar end */
+
+/* hero section start */
+
+.tinggi {
+  min-height: 50vh;
+}
+.tinggi2 {
+  min-height: 70vh;
+}
+
+@media screen and (max-width: 991px) {
+  .shadow-mini {
+    --bs-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    --bs-shadow-base: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    --bs-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    --bs-shadow: var(--bs-shadow-base);
+    box-shadow: var(--bs-shadow);
+  }
+}
+/* hero section end */
+
+/* about us start */
+
+@media screen and (min-width: 1200px) {
+  .about-extend {
+    margin-left: -300px;
+  }
+  .about-extend2 {
+    margin-left: -150px;
+    margin-top: 50px;
+  }
+}
+
+/* about us end */
+
+/* contact start */
+
+.custom-input {
+  background-color: #b4b4b8;
+}
+
+.btn-light {
+  background-color: #b4b4b8;
+  border: none;
+}
