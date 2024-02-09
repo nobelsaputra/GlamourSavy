@@ -10,7 +10,7 @@
 }
 
 .krub-semi {
-  font-family: "Krub", sans-serif;
+  font-family: 'Krub', sans-serif;
   font-weight: 600;
   font-style: normal;
 }
@@ -92,7 +92,7 @@ ul li {
   min-height: 50vh;
 }
 .tinggi2 {
-  min-height: 70vh;
+  min-height: 90vh;
 }
 
 @media screen and (max-width: 991px) {
